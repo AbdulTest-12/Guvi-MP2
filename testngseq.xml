@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+	<listener class-name="utils.Listeners"></listener>
+</listeners>
+<parameter name="url" value="https://www.demoblaze.com/"></parameter>
+  <test thread-count="5" name="Test">
+     <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="tests.LoginModule"/>
+      <class name="tests.ResponsiveTestModule"/>
+      <class name="tests.UIandUXModule"/>
+      <class name="tests.NavigationModule"/>
+      <class name="tests.PlaceOrderModule"/>
+      <class name="tests.AddToCartModule"/>
+      <class name="tests.SignUpModule"/>
+      <class name="tests.LogOutModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <parameter name="url" value="https://www.demoblaze.com/"/>
+  <listeners>
+    <listener class-name="utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.LoginModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="LoginFunctionality" invocation-numbers="2"/>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LoginModule -->
+      <class name="tests.PlaceOrderModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="setup"/>
+          <include name="testPlaceOrderWithEmptyForm"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- tests.PlaceOrderModule -->
+      <class name="tests.UIandUXModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="AlertPopupStyling"/>
+          <include name="createReport"/>
+          <include name="setup"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- tests.UIandUXModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

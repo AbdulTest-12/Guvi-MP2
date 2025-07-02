@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-02T13:29:37 IST" name="Suite" finished-at="2025-07-02T13:30:08 IST" duration-ms="30430">
+    <groups>
+    </groups>
+    <test started-at="2025-07-02T13:29:37 IST" name="SampleTest" finished-at="2025-07-02T13:30:08 IST" duration-ms="30430">
+      <class name="tests.PlaceOrderModule">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:37 IST" name="createReport" finished-at="2025-07-02T13:29:37 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:37 IST" name="setup" finished-at="2025-07-02T13:29:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDeatils()[pri:0, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:37 IST" name="testDeatils" finished-at="2025-07-02T13:29:37 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeatils -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:37 IST" name="browserLaunchAndUrlLoad" finished-at="2025-07-02T13:29:44 IST" duration-ms="6408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="testPlaceOrderWithValidDetails()[pri:1, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:44 IST" name="testPlaceOrderWithValidDetails" finished-at="2025-07-02T13:29:52 IST" duration-ms="8369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrderWithValidDetails -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:52 IST" name="browserLaunchAndUrlLoad" finished-at="2025-07-02T13:29:58 IST" duration-ms="5689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="testPlaceOrderWithEmptyForm()[pri:2, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:29:58 IST" name="testPlaceOrderWithEmptyForm" finished-at="2025-07-02T13:30:08 IST" duration-ms="9915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrderWithEmptyForm -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.PlaceOrderModule@26794848]" started-at="2025-07-02T13:30:08 IST" name="closeReport" finished-at="2025-07-02T13:30:08 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- tests.PlaceOrderModule -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Suite -->
+</testng-results>
